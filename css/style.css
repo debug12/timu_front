@@ -24,8 +24,15 @@ a:visited {
 }
 
 
+#timu_logo{
+	margin-top: -5%;
+	position: absolute;
+}
 
-
+#timu_text{
+	margin-top: 30%;
+	margin-left: 26%;
+}
 
 /* Navigation */
 
@@ -183,13 +190,20 @@ a:visited {
 
 
 
-
 /* Tablet */
 @media screen and (max-width: 1024px) {
 
 #logo {
 	width: 100%;
 	text-align: center;
+}
+
+#timu_logo{
+	margin-left: 3%;
+}
+
+#timu_text{
+	margin-right: 24%;
 }
 
 #nav {
